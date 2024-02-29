@@ -24,6 +24,21 @@
             <fieldset>
                 <legend>User details</legend>
 
+                    <label for="nameField">Name</label>				
+                    <input type="text" name="nameField" id="nameField" placeholder="John" required />
+                    <span id="nameMessage"></span>
+
+                    <br/>
+
+                    <label for="emailAddress">Email address</label>
+                    <input class="input" type="email" name="emailAddress" id="emailAddress" required = "required"/>
+                    <span id="emailMessage"></span>
+
+                    <br/>
+
+                    <label for="phone">Phone number</label>
+                    <input class="input" type="tel" name="phoneField" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required = "required">
             </fieldset>
+
         </body>
     </html>
