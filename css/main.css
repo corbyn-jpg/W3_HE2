@@ -49,7 +49,7 @@ a{
     src: url(../assets/Horizon.ttf);
 }
 
-h1{
+h1, h2{
     font-family: Horizon;
     font-size: 2.5vw;
 }
