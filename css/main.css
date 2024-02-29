@@ -4,6 +4,7 @@ body{
     text-align: center;
     background-color: #cfc0b7;
     color: #442523;
+    font-size: 1.3vw;
 }
 
 .navbar{
@@ -12,13 +13,13 @@ body{
 }
 
 .item{
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
 .active{
-    font-size: 1.3vw;
-    color: #346c47;
+    font-size: 1.5vw;
+    color: #ac571b;
     font-weight: bold;
 }
 
@@ -37,6 +38,11 @@ body{
   border-radius: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: #419e60;
+}
+
 @font-face {
     font-family: Horizon;
     src: url(../assets/Horizon.ttf);
@@ -44,4 +50,8 @@ body{
 
 h1{
     font-family: Horizon;
+}
+
+img{
+    width: 100%;
 }
