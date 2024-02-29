@@ -8,3 +8,14 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+
+
+@font-face {
+    font-family: Horizon;
+    src: url(../assets/Horizon.ttf);
+}
+
+h1{
+    font-family: Horizon;
+}
