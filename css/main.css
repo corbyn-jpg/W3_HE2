@@ -59,7 +59,7 @@ img{
     border-radius: 10px;
 }
 
-.parallel{
+.indexGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -95,8 +95,21 @@ fieldset{
     border-radius: 10px;
 }
 
-.balance{
+.contactGrid{
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutGrid{
+    margin-top: 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.aboutGrid img{
+    width: 30%;
 }
