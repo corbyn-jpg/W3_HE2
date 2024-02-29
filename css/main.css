@@ -71,3 +71,7 @@ img{
     width: 40%;
 }
 
+.info img{
+    width: 5%;
+    padding: 20px;
+}
