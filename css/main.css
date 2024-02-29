@@ -73,6 +73,7 @@ img{
 
 fieldset{
 	margin: 1vw;
+    border-radius: 10px;
 	padding: 8vh;
     width: auto;
 }
@@ -88,7 +89,14 @@ fieldset{
     padding: 20px;
 }
 
+.input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .balance{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
