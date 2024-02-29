@@ -71,7 +71,24 @@ img{
     width: 40%;
 }
 
+fieldset{
+	margin: 1vw;
+	padding: 8vh;
+    width: auto;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
+}
 .info img{
-    width: 5%;
+    width: 10%;
     padding: 20px;
+}
+
+.balance{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
