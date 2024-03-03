@@ -113,3 +113,17 @@ fieldset{
 .aboutGrid img{
     width: 30%;
 }
+
+.imgText {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: auto;
+  }
+
+  .text {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
